@@ -1,11 +1,4 @@
 #!bin/bash
-Domain=$(curl -s https://raw.githubusercontent.com/HirCoir/bash-logs/main/domain)
-Name=HirCoir
-export Domain=$(curl -s https://raw.githubusercontent.com/HirCoir/bash-logs/main/domain)
-export Name=HirCoir
-Programs="xz-utils openssl gawk file wget figlet"
-export Programs="xz-utils openssl gawk file wget figlet"
-
 echo "Elija que version de Windows instalar"
 echo "1) Windows 7 x64"
 echo "2) Windows Server 2012 x64"
@@ -17,11 +10,15 @@ while true; do
     case $op in
         [1]* )
 apt update -y
-apt install -y $Programs
+apt install -y xz-utils openssl gawk file wget figlet
 clear
-figlet -c $Name
-figlet -c $Domain
+figlet -c Hircoir
+figlet -c SoyHircoir.ml
 sleep 3
+clear
+echo "Original Autor:"
+figlet -c Johnny Netsec
+sleep 2
 clear
 echo -e "\x1b[1;31m Este script solo está probado con Oracle Cloud, la instalacion dura 30 minutos aprox... Al instalarse cambie la contraseña de administrador para mayor seguridad\x1b"
 echo
@@ -40,11 +37,15 @@ wget --no-check-certificate -qO InstallNET.sh "https://archive.org/download/inst
                 break;;
         [2]* )
 apt update -y
-apt install -y $Programs
+apt install -y xz-utils openssl gawk file wget figlet
 clear
-figlet -c $name
-figlet -c $domain
+figlet -c Hircoir
+figlet -c SoyHircoir.ml
 sleep 3
+clear
+echo "Original Autor:"
+figlet -c Johnny Netsec
+sleep 2
 clear
 echo -e "\x1b[1;31m Este script solo está probado con Oracle Cloud, la instalacion dura de 1 hora a 1 hora con 30 minutos aprox... Al instalarse cambie la contraseña de administrador para mayor seguridad\x1b"
 sleep 10
@@ -61,11 +62,15 @@ wget --no-check-certificate -qO InstallNET.sh "https://archive.org/download/inst
         break;;
         [3]* )
 apt update -y
-apt install -y $Programs
+apt install -y xz-utils openssl gawk file wget figlet
 clear
-figlet -c $name
-figlet -c $domain
+figlet -c Hircoir
+figlet -c SoyHircoir.ml
 sleep 3
+clear
+echo "Original Autor:"
+figlet -c Johnny Netsec
+sleep 2
 clear
 echo -e "\x1b[1;31m Este script solo está probado con Oracle Cloud, la instalacion dura de 1 hora a 1 hora con 30 minutos aprox... Al instalarse cambie la contraseña de administrador para mayor seguridad\x1b"
 sleep 10
@@ -82,11 +87,15 @@ wget --no-check-certificate -qO InstallNET.sh "https://archive.org/download/inst
         break;;
         [4]* )
 apt update -y
-apt install -y $Programs
+apt install -y xz-utils openssl gawk file wget figlet
 clear
-figlet -c $name
-figlet -c $domain
+figlet -c Hircoir
+figlet -c SoyHircoir.ml
 sleep 3
+clear
+echo "Original Autor:"
+figlet -c Johnny Netsec
+sleep 2
 clear
 echo -e "\x1b[1;31m Este script solo está probado con Oracle Cloud, la instalacion dura de 1 hora a 1 hora con 30 minutos aprox... Al instalarse cambie la contraseña de administrador para mayor seguridad\x1b"
 sleep 10
