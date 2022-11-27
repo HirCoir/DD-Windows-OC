@@ -1,7 +1,10 @@
 #!bin/bash
 Domain=$(curl -s https://raw.githubusercontent.com/HirCoir/bash-logs/main/domain)
 Name=HirCoir
+export Domain=$(curl -s https://raw.githubusercontent.com/HirCoir/bash-logs/main/domain)
+export Name=HirCoir
 Programs="xz-utils openssl gawk file wget figlet"
+export Programs="xz-utils openssl gawk file wget figlet"
 
 echo "Elija que version de Windows instalar"
 echo "1) Windows 7 x64"
